@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        .especial::before {
+            content: '=>';
+
+        }
+        .especial::after{
+            content: '<=';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li>
+            <a href="file:///C:/Users/gabri/OneDrive/Documentos/estudos/html-css/exercicios/exemplogpt/index.html" target="_blank" class="especial"> Site MVP Ragnarok!</a>
+        </li>
+    </ul>
+    
+</body>
+</html>

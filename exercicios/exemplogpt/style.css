@@ -1,0 +1,124 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #EB003B 40%, #523139, #3a282c);
+    background-attachment: fixed;
+    margin: 0px;
+    text-align: justify;
+}
+
+header a{
+    color: #EB003B;
+    text-align: justify;
+    text-align: center;
+    margin: auto 25px;
+    display: inline-block;
+    vertical-align: bottom;
+    transition-duration: .5s;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header nav >a:hover{
+    color: #cf617d;
+    text-decoration: underline;
+    background-color: #3a282c;
+}
+
+header nav{
+    border-radius: 10px;
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+    margin: 10px auto;
+    min-width: 300px;
+    max-width: 600px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.411);
+
+
+}
+nav#paginas > a{
+    background-color: white;
+    margin: 0px;
+    padding: 6px;
+    width: 0px;
+}
+
+nav > a{
+    color: #EB003B;
+    padding: 2px;
+    text-align: center;
+}
+
+.timer-placeholder {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px dashed #aaa;
+    font-style: italic;
+    color: #666;
+}
+
+div{
+    background-image: linear-gradient(to right, rgb(175, 175, 175), transparent);
+    padding-left: 2px;
+    border-radius: 1px;
+}
+.elemento{
+    vertical-align: bottom;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: serif;
+
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.459);
+    min-width: 300px;
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0004ff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+h1 img {
+    vertical-align: middle;
+}
+
+h2 img {
+    vertical-align: middle;
+}
