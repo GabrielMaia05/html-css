@@ -12,6 +12,7 @@
         }
         table{
             width: 400px;
+            position: relative;
         }
 
         caption{
@@ -24,6 +25,12 @@
         thead{
             background-color: rgb(168, 168, 168);
             color: black;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(168, 168, 168);
         }
 
         tbody > tr:nth-child(even) /* 2n */ {
