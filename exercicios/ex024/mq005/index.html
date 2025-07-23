@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"/>
     <title>Media Query</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho ()">
     <header>
         <h1>Meu site</h1>
         <div id="burgue" class="material-symbols-outlined" onclick="clickMenu()">menu</div>
@@ -29,10 +30,21 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vero, distinctio quam, rem blanditiis, animi pariatur voluptas ipsa facilis veniam explicabo optio est labore hic quos id dignissimos deserunt porro?</p>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt laudantium minima aliquam, fugiat quibusdam perferendis voluptatum dicta cupiditate accusantium nemo? Maxime veniam, doloribus cumque ipsum tenetur asperiores excepturi eum suscipit.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, nobis numquam! Itaque officiis hic nihil, dignissimos cum, iste quo sed reprehenderit natus esse eius molestiae! Impedit, pariatur iste? Temporibus, repellendus?</p>
         </article>
     </main>
 
     <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            }else {
+                itens.style.display = 'none'
+            }
+        }
+
         function clickMenu() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
